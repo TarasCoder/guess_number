@@ -8,12 +8,18 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="count">
+      <h2>Your score: <span id="yourScore"></span></h2>
+      <h2>Comp score: <span id="compScore"></span></h2>
+    </div>
     <div class="wrapper">
       <form>
-        <h1>Guess number from 1 to 10</h1>
-        <input id="input" type="text" placeholder="Please enter number: ">
+        <h1>Guess number from 1 to 5</h1>
+        <input id="input" type="number" placeholder="Please enter number: ">
         <button id="btn">Check!</button>
+        <button id="reset">Reset</button>
       </form>
+
     </div>
     <script src="app.js"></script>
   </body>
