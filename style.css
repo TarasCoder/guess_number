@@ -1,0 +1,20 @@
+body {
+  background: rgb(204, 204, 251);
+}
+form {
+  text-align: center;
+}
+#input, button{
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+    border: 1px solid rgb(131, 130, 130);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
